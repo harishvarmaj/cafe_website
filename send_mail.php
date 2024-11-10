@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     // Set up email parameters
-    $to = "harishvarmaj7@gmail.com";  // Replace with your email
+    $to = " harishvarmaj7@gmail.com";  // Replace with your email
     $subject = "New Message from Café Contact Form";
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$messageContent";
     
